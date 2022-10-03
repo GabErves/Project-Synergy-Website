@@ -1,72 +1,284 @@
+* {
+  box-sizing: border-box;
+}
 
-/* ABOUT US STYLESHEET*/
+
+/*
+Might help with alignment: 
+
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;}  */
+
 .topnav {
-    background-color: #04AA6D;
-    overflow: hidden; 
-    font-family: 'Inter', sans-serif; 
+  background-color: #04AA6D;
+  overflow: hidden; 
+  font-family: 'Inter', sans-serif; 
 
-  }
-  
+}
+
   /* Style the links inside the navigation bar */
   .topnav a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: 'Inter', sans-serif; 
-    transition-duration: .7s;
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      font-family: 'Inter', sans-serif; 
+      transition-duration: .5s;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: white;
-    color: green;
-    font-family: 'Inter', sans-serif; 
-    
+      background-color: white;
+      color: green;
+      font-family: 'Inter', sans-serif;
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #70FE00;
-    color: white;
-    font-family: 'Inter', sans-serif; 
-    font-weight: bold; 
+      background-color: #70FE00;
+      color: white;
+      font-family: 'Inter', sans-serif; 
+      font-weight: bold; 
   font-family: 'Inter', sans-serif;
   } 
 
-  
-h1{
-  font-family: 'Inter', sans-serif;
+
+.colorbox {
+  background-color: white; 
+  padding-top: 10px; 
+  padding-bottom: 10px;
+} 
+
+body {
+  background-color: rgb(0, 0, 0);
 }
- h2{
-  font-family: 'Inter', sans-serif;
-  font-size: 17px;
- }
- h3{
-  font-family: 'Inter', sans-serif;
- }
- ul{
-  font-family: 'Inter', sans-serif;
- }
- li{
-  font-family: 'Inter', sans-serif;
- } 
 
- .tagline {
-    color: black; 
-    padding-left: 100px; 
-    font-size: 50px;
- } 
+h1{
+font-family: 'Inter', sans-serif;
+}
+h2{
+font-family: 'Inter', sans-serif;
+font-size: 17px;
+}
+h3{
+font-family: 'Inter', sans-serif;
+}
+ul{
+font-family: 'Inter', sans-serif;
+}
+li{
+font-family: 'Inter', sans-serif;
+} 
 
- .logo {
+
+
+
+.logo {
   font-family: 'Inter', sans-serif;
   font-size: 95px; 
   text-align: center; 
   color: #00cc99;
+}  
+
+
+.tagline {
+  font-family: 'Inter', sans-serif;
+  color: black; 
+  padding-left: 100px; 
+  font-size: 50px;
+}  
+
+  .tagline.small {
+      font-size: 40px;
+  }
+
+  .tagline strong.red {
+      /* font-size: 65px; */
+      color: rgb(255, 0, 0); 
+      font-size: 100px;
+  }  
+
+  .tagline.center {
+      padding-left: 0px;  
+      padding-bottom: 0%;
+      text-align: center; 
+      font-size: 95px; 
+  } 
+
+      .tagline.center.white {
+          color: white; 
+      } 
+
+      .tagline.center.black {
+          color: black; 
+      }
+
+
+  .tagline strong.green {
+      /* font-size: 65px; */
+      color: #00cc99; 
+      font-size: 100px;
+  }  
+  
+  .tagline.white {
+      color: #FFFFFF;  
+      
+  }  
+
+  .tagline.white.big { /*Changed */
+      font-size: 85px; 
+      text-align: left;
+  }  
+
+  .tagline.white.small { /*Changed */
+      font-size: 42px; 
+      text-align: left;
+  }
+  
+
+  li .tagline {
+      font-size: 45px; 
+      padding-left: 0px; 
+      
+  }
+
+
+  .tagline h4 {
+      font-size: 15px; /*Won't change size for h4s :( */
+  }
+
+
+
+.description {
+  font-family: 'Inter', sans-serif; 
+  font-size: 150%; 
+  padding-left: 100px; 
+  padding-right: 150px; 
+  
+}  
+
+ul.description  li {
+  font-family: 'Inter', sans-serif; 
+  font-size: 30px;  
+  display: inline-block;
+   /*Padding does not bring bullet point next to item :( */
+}  
+
+/* Classes for feature images */
+
+.team {
+  display: flex; 
+  justify-content: center; 
+  padding: 0; 
+  list-style: none;
 } 
 
-body {
-  background-color: white;
+  .team li {
+    width: calc(33.33333% - 2em);
+    margin-left: 2em;
+    margin-top: 3em;  
+    border-style: solid;
+  } 
+
+
+  .team li h1 {
+      margin-top: 0em; 
+      margin-bottom: 0em;
+      text-align: center; 
+  } 
+
+  .team li p {
+      margin-top: 0em;
+      text-align: center; 
+      font-size: 175%;
+  }  
+
+  .team li img {
+      text-align: center; 
+  }
+
+  
+
+
+.image_flex {  
+  flex-basis: 40%; 
+  justify-content: flex-end;
+  
+}  
+
+.info_container {
+  display: flex;  
+  padding-top: 2%; 
+  padding-bottom: 5%;
+  justify-content: center;
+}  
+
+.info_container.left {
+  align-items: left;
+  
+}   
+
+.info_container.right {
+  align-items: right;
+} 
+
+.logo_adjust{
+  padding-right: 10%;
+  filter: invert(47%) sepia(91%) saturate(612%) hue-rotate(122deg) brightness(102%) contrast(102%); 
+  
+} 
+
+
+
+
+
+/* Image Specifications */
+
+.icon {
+  padding-left: 100px; 
+  padding-top: 45px;
 }
+
+  .icon.moneyloss {
+      padding-right: 10%;
+      filter: invert(16%) sepia(98%) saturate(5413%) hue-rotate(359deg) brightness(100%) contrast(121%); 
+      
+  }
+
+
+  .icon.gas {
+      padding-right: 10%;
+      filter: invert(47%) sepia(93%) saturate(396%) hue-rotate(4deg) brightness(90%) contrast(84%); 
+      
+  } 
+
+  .icon.battery {
+      padding-right: 10%;
+      filter: invert(42%) sepia(34%) saturate(5490%) hue-rotate(188deg) brightness(101%) contrast(108%); 
+      
+  } 
+
+  footer {
+      background-color: #04AA6D;
+      overflow: hidden; 
+      font-family: 'Inter', sans-serif;
+      color: white;
+  }
+  
+  
