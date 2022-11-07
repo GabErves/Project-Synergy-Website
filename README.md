@@ -13,6 +13,7 @@ This is the custom website for our business proposal, Ration, where users can tr
 <img width="375" alt="S-1" src="https://user-images.githubusercontent.com/97007581/200374151-260f823b-92c6-4f54-b9f6-5bf2dff471b3.png">
 
 <h1>Here are some early mockups of the website:</h1>
+
 ![image](https://user-images.githubusercontent.com/97007581/200374571-ad60aee8-8528-4fbd-8e05-2deed29d35aa.png)
 
 ![image](https://user-images.githubusercontent.com/97007581/200374598-3650ca82-0222-4ab0-843f-6ce23540655a.png)
