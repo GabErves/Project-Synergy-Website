@@ -1,7 +1,25 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; 
+  padding: 0px; 
+  /* font-family: 'Inter', sans-serif;  */
 }
 
+header {
+  top: 0;
+  position: sticky;  /*Doesn't work in topnav, even without overflow...?*/ 
+  z-index: 10; /*Keeps header above .svg images*/
+}  
+
+@media screen and (max-width: 1000px) {
+  .row, .navbar, .info_container, .features {   
+    flex-direction: column; 
+    flex-wrap: wrap;
+  } 
+
+  /* How do I set more specific media queries?? */
+
+  
+}
 
 /*
 Might help with alignment: 
@@ -55,17 +73,21 @@ vertical-align: baseline;}  */
       color: white;
       font-family: 'Inter', sans-serif; 
       font-weight: bold; 
-  font-family: 'Inter', sans-serif;
+      font-family: 'Inter', sans-serif;
   } 
 
 
 .colorbox {
   background-color: white; 
   padding-top: 10px; 
-  padding-bottom: 10px;
+  padding-bottom: 10px; 
+  
 } 
 
-body {
+body { 
+  margin: 0;
+  min-height: 100vh; 
+  font-family: sans-serif;
   background-color: rgb(0, 0, 0);
 }
 
@@ -105,7 +127,7 @@ font-family: 'Inter', sans-serif;
 }  
 
   .tagline.small {
-      font-size: 40px;
+      font-size: 210%;
   }
 
   .tagline strong.red {
@@ -279,6 +301,10 @@ ul.description  li {
       overflow: hidden; 
       font-family: 'Inter', sans-serif;
       color: white;
-  }
+  } 
+
+  .img_anchor { /* Should be used in divs, since imgs are inline */
+    text-align: center;
+}
   
   
