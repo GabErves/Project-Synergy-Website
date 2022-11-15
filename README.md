@@ -1,12 +1,13 @@
-# Project-Synergy-Website
+# RATION - Project-Synergy-Website
 Custom website for Diverse Influencers Project synergy site
 
-<b>RATION</b>
 
 This is the custom website for our business proposal, Ration, where users can track their food spending and experation dates in order to avoid food waste. Ration has two components, a website and a mobile app. 
 
 
 <h1>Here are some early design screenshots of the mobile app!</h1>
+
+<h3>Figma was used to create the early wireframes, and a tenplate from Behance was utilized as well. </b>
 
 <img width="375" alt="S-4" src="https://user-images.githubusercontent.com/97007581/200374118-34f5714b-88ec-4ca7-91ea-eee4c6adc44c.png">
 
