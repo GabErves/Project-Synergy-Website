@@ -9,9 +9,19 @@ This is the custom website for our business proposal, Ration, where users can tr
 
 <h3>Figma was used to create the early wireframes, and a template from Behance was utilized as well. </b>
 
+
+
+
+
+
 <img width="375" alt="S-4" src="https://user-images.githubusercontent.com/97007581/200374118-34f5714b-88ec-4ca7-91ea-eee4c6adc44c.png">
 
 <img width="375" alt="S-1" src="https://user-images.githubusercontent.com/97007581/200374151-260f823b-92c6-4f54-b9f6-5bf2dff471b3.png">
+
+
+
+
+
 
 <h1>Here are some early mockups of the website:</h1>
 
